@@ -1,0 +1,489 @@
+﻿@font-face {
+    font-family: 'barber';
+    src: url('../fonts/Bebas_Neue/BebasNeue-Regular.ttf') format('truetype');
+}
+
+body {
+    margin: 0px;
+}
+
+#cabecalho {
+    position: fixed;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+
+#itens-cabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: rgba(137, 43, 226, 0);
+    height: 50px;
+    width: 300px;
+    margin-right: 20px;
+}
+
+#sobre-nos {
+    width: 110px;
+    height: 45px;
+    color: white;
+    font-size: 23px;
+    white-space: nowrap;
+    font-family: 'barber';
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+#assinatura {
+    width: 110px;
+    height: 45px;
+    color: white;
+    font-size: 23px;
+    white-space: nowrap;
+    font-family: 'barber';
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+#insta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 255, 0);
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(12, 12, 12);
+}
+
+#pag-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+    background-color: rgb(12, 12, 12);
+    background-image: url('../image/como-escolher-barbearia-800x300.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+}
+
+#aba-nome-barbearia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 625px;
+    height: 650px;
+    /*
+    background-color: rgba(128, 128, 128, 0.247);
+    */
+    margin-right: 400px;
+    border-radius: 7px;
+}
+
+#nome-e-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 620px;
+    height: 230px;
+    background-color: rgba(137, 43, 226, 0);
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+}
+
+#nome-barbershop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    color: white;
+    font-size: 120px;
+    font-family: 'barber';
+}
+
+#registro-e-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 620px;
+    height: 150px;
+    background-color: rgba(0, 0, 255, 0);
+}
+
+#link-botao-registro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 50px;
+    text-decoration: none;
+}
+
+#botao-registro {
+    width: 400px;
+    height: 50px;
+    font-family: 'barber';
+    color: white;
+    background-color: #F50109;
+    border-radius: 5px;
+    border: 0px;
+    box-shadow: 0px 0px 10px #9D0005;
+    font-size: 27px;
+    font-weight: normal;
+}
+
+#link-botao-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 50px;
+    text-decoration: none;
+}
+
+#botao-login {
+    width: 400px;
+    height: 50px;
+    font-family: 'barber';
+    color: white;
+    background-color: #F50109;
+    border-radius: 5px;
+    border: 0px;
+    box-shadow: 0px 0px 10px #9D0005;
+    font-size: 27px;
+    font-weight: normal;
+}
+
+.divisoes {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 255, 0);
+}
+
+#aba-endereco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 650px;
+    background-color: rgb(12, 12, 12);
+}
+
+#titulo-enderecos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    margin: auto;
+    width: 100%;
+    height: 50px;
+    font-family: 'barber';
+    color: white;
+    border-radius: 5px;
+    font-size: 35px;
+}
+
+#div-enderecos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /*
+    gap: 10px;
+    */
+    margin: auto;
+    width: 1080px;
+    height: 530px;
+    background-color: rgba(0, 0, 255, 0);
+}
+
+.unidade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(137, 43, 226, 0);
+    width: 350px;
+    height: 510px;
+}
+
+.img-unidade {
+    width: 350px;
+    height: 240px;
+    background-color: rgba(0, 128, 0, 0);
+}
+
+.inf-unidades {
+    width: 350px;
+    height: 270px;
+    background-color: rgb(29, 29, 29);
+}
+
+#unidade-meio {
+    background-color: rgb(43, 43, 43);
+}
+
+.local-unidade {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 0, 0, 0);
+    height: 50px;
+}
+
+.img-local {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+
+.txt-unidade {
+    font-family: 'barber';
+    color: rgb(192, 192, 192);
+    font-size: 30px;
+    margin: 0px;
+    font-weight: normal;
+}
+
+.bairro {
+    font-family: 'barber';
+    color: white;
+    font-size: 50px;
+    margin: 0px;
+    background-color: rgba(137, 43, 226, 0);
+    height: 50px;
+    width: 340px;
+    margin-left: 10px;
+}
+
+.rua {
+    display: flex;
+    align-items: end;
+    font-family: 'barber';
+    color: white;
+    font-size: 25px;
+    margin: 0px;
+    background-color: rgba(0, 128, 0, 0);
+    height: 40px;
+    width: 340px;
+    margin-left: 10px;
+    font-weight: normal;
+}
+
+.relogio {
+    width: 30px;
+    height: 30px;
+    margin: 0px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.dias-da-semana {
+    display: flex;
+    align-items: center;
+    font-family: 'barber';
+    color: white;
+    font-size: 20px;
+    margin: 0px;
+    background-color: rgba(0, 128, 0, 0);
+    height: 40px;
+    width: 340px;
+    margin-left: 10px;
+    font-weight: normal;
+}
+
+#aba-planos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 650px;
+    background-color: rgb(12, 12, 12);
+    background-image: url('../image/2393a-230b0e_46ea0c1020274b25aeb094ddcc1f132fmv2.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#titulo-planos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    margin: auto;
+    width: 100%;
+    height: 50px;
+    margin: 0px;
+    font-family: 'barber';
+    color: white;
+    border-radius: 5px;
+    font-size: 35px;
+}
+
+#planos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 1200px;
+    height: 550px;
+    background-color: rgba(137, 43, 226, 0);
+}
+
+.item-plano {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    width: 385px;
+    height: 500px;
+    background-color: rgba(20, 20, 20, 0.418);
+    border-radius: 7px;
+}
+
+.nome-plano {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'barber';
+    color: white;
+    font-size: 60px;
+    font-weight: normal;
+    margin: 0px;
+}
+
+.valor-plano {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'barber';
+    color: #F50109;
+    font-size: 90px;
+    margin: 0px;
+}
+
+.plano-mensal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'barber';
+    color: #0031F4;
+    font-size: 30px;
+    font-weight: normal;
+    margin: 0px;
+}
+
+.lista-beneficios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'barber';
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0px;
+}
+
+.item-beneficio {
+}
+
+#aba-sobre-nos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 650px;
+    background-color: rgb(12, 12, 12);
+}
+
+#titulo-sobre-nos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    margin: auto;
+    width: 100%;
+    height: 50px;
+    font-family: 'barber';
+    color: white;
+    border-radius: 5px;
+    font-size: 35px;
+}
+
+#texto-sobre-nos {
+    display: flex;
+    justify-content: center;
+    /*
+    background-color: #0031F4;
+    */
+    width: 900px;
+    height: 400px;
+    font-family: 'barber';
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+#rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 250px;
+    background-color: rgb(0, 0, 0);
+}
+
+#nome-e-logo-rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 620px;
+    height: 230px;
+    background-color: rgba(137, 43, 226, 0);
+}
+
+#logo-rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+}
+
+#nome-barbershop-rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    color: white;
+    font-size: 65px;
+    font-family: 'barber';
+}

@@ -1,0 +1,684 @@
+﻿@media (min-width: 1201px) and (max-width: 1265px) {
+    #cabecalho {
+        /*
+        background-color: red;
+        */
+    }
+
+    #pag-principal {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 650px;
+        background-color: rgb(12, 12, 12);
+        background-image: url('../../image/como-escolher-barbearia-800x300.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-x: -350px;
+        background-size: cover;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+    #cabecalho {
+        /*
+        background-color: blue;
+        */
+    }
+
+    #pag-principal {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 650px;
+        background-color: rgb(12, 12, 12);
+        background-image: url('../../image/como-escolher-barbearia-800x300.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-x: -450px;
+        background-size: cover;
+    }
+
+    #aba-endereco {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 650px;
+        background-color: rgb(12, 12, 12);
+    }
+
+    #div-enderecos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+        /*
+        gap: 10px;
+        */
+        margin: auto;
+        width: 1020px;
+        height: 1550px;
+        background-color: rgba(0, 0, 255, 0);
+    }
+
+    .unidade {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgba(137, 43, 226, 0);
+        width: 325px;
+        height: 510px;
+    }
+
+    #planos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        width: 1020px;
+        height: 550px;
+        background-color: rgba(137, 43, 226, 0);
+    }
+
+    .item-plano {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 25px;
+        width: 325px;
+        height: 500px;
+        background-color: rgba(20, 20, 20, 0.418);
+        border-radius: 7px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    #cabecalho {
+        /*
+        background-color: green;
+        */
+    }
+
+    #aba-nome-barbearia {
+        margin: 0px;
+    }
+
+    #pag-principal {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 650px;
+        background-color: rgb(12, 12, 12);
+        background-image: url('../../image/como-escolher-barbearia-800x300.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-x: -700px;
+        background-size: cover;
+    }
+
+    #aba-endereco {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 1675px;
+        background-color: rgb(12, 12, 12);
+    }
+
+    #div-enderecos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+        /*
+        gap: 10px;
+        */
+        margin: auto;
+        width: 350px;
+        height: 1550px;
+        background-color: rgba(0, 0, 255, 0);
+    }
+
+    #aba-planos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 1650px;
+        background-color: rgb(12, 12, 12);
+        background-image: url('../../image/2393a-230b0e_46ea0c1020274b25aeb094ddcc1f132fmv2.webp');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: -500px;
+    }
+
+    #planos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        flex-wrap: wrap;
+        width: 330px;
+        height: 1550px;
+        background-color: rgba(137, 43, 226, 0);
+    }
+
+    .item-plano {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 25px;
+        width: 325px;
+        height: 500px;
+        background-color: rgba(20, 20, 20, 0.418);
+        border-radius: 7px;
+    }
+
+    #aba-sobre-nos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 650px;
+        background-color: rgb(12, 12, 12);
+    }
+
+    #titulo-sobre-nos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        margin: auto;
+        width: 100%;
+        height: 50px;
+        font-family: 'barber';
+        color: white;
+        border-radius: 5px;
+        font-size: 35px;
+    }
+
+    #texto-sobre-nos {
+        display: flex;
+        justify-content: center;
+        /*
+        background-color: #0031F4;
+        */
+        width: 700px;
+        height: 400px;
+        font-family: 'barber';
+        color: white;
+        font-size: 25px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    #cabecalho {
+        /*
+        background-color: yellow;
+        */
+    }
+
+    #aba-nome-barbearia {
+        margin: 0px;
+        width: 475px;
+    }
+
+    #nome-e-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 475px;
+        height: 230px;
+        background-color: rgba(137, 43, 226, 0);
+    }
+
+    #logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+    }
+
+    #nome-barbershop {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        color: white;
+        font-size: 95px;
+        font-family: 'barber';
+    }
+
+    #registro-e-login {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        width: 325px;
+        height: 150px;
+        background-color: rgba(0, 0, 255, 0);
+    }
+
+    #botao-registro {
+        width: 325px;
+        height: 50px;
+        font-family: 'barber';
+        color: white;
+        background-color: #F50109;
+        border-radius: 5px;
+        border: 0px;
+        box-shadow: 0px 0px 10px #9D0005;
+        font-size: 27px;
+        font-weight: normal;
+    }
+
+    #botao-login {
+        width: 325px;
+        height: 50px;
+        font-family: 'barber';
+        color: white;
+        background-color: #F50109;
+        border-radius: 5px;
+        border: 0px;
+        box-shadow: 0px 0px 10px #9D0005;
+        font-size: 27px;
+        font-weight: normal;
+    }
+
+    #pag-principal {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 650px;
+        background-color: rgb(12, 12, 12);
+        background-image: url('../../image/como-escolher-barbearia-800x300.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-x: -950px;
+        background-size: cover;
+    }
+
+    #aba-endereco {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 1675px;
+        background-color: rgb(12, 12, 12);
+    }
+
+    #div-enderecos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+        /*
+        gap: 10px;
+        */
+        margin: auto;
+        width: 350px;
+        height: 1550px;
+        background-color: rgba(0, 0, 255, 0);
+    }
+
+    #aba-planos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 1650px;
+        background-color: rgb(12, 12, 12);
+        background-image: url('../../image/2393a-230b0e_46ea0c1020274b25aeb094ddcc1f132fmv2.webp');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: -700px;
+    }
+
+    #planos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        flex-wrap: wrap;
+        width: 330px;
+        height: 1550px;
+        background-color: rgba(137, 43, 226, 0);
+    }
+
+    .item-plano {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 25px;
+        width: 325px;
+        height: 500px;
+        background-color: rgba(20, 20, 20, 0.418);
+        border-radius: 7px;
+    }
+
+    #aba-sobre-nos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 650px;
+        background-color: rgb(12, 12, 12);
+    }
+
+    #titulo-sobre-nos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        margin: auto;
+        width: 100%;
+        height: 50px;
+        font-family: 'barber';
+        color: white;
+        border-radius: 5px;
+        font-size: 35px;
+    }
+
+    #texto-sobre-nos {
+        display: flex;
+        justify-content: center;
+        /*
+        background-color: #0031F4;
+        */
+        width: 450px;
+        height: 400px;
+        font-family: 'barber';
+        color: white;
+        font-size: 25px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    #cabecalho {
+        /*
+        background-color: blueviolet;
+        */
+    }
+
+    #aba-nome-barbearia {
+        margin: 0px;
+        width: 310px;
+    }
+
+    #nome-e-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 230px;
+        background-color: rgba(137, 43, 226, 0);
+    }
+
+    #logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 35px;
+    }
+
+    #nome-barbershop {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        color: white;
+        font-size: 55px;
+        font-family: 'barber';
+    }
+
+    #registro-e-login {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        width: 300px;
+        height: 150px;
+        background-color: rgba(0, 0, 255, 0);
+    }
+
+    #botao-registro {
+        width: 200px;
+        height: 50px;
+        font-family: 'barber';
+        color: white;
+        background-color: #F50109;
+        border-radius: 5px;
+        border: 0px;
+        box-shadow: 0px 0px 10px #9D0005;
+        font-size: 20px;
+        font-weight: normal;
+    }
+
+    #botao-login {
+        width: 200px;
+        height: 50px;
+        font-family: 'barber';
+        color: white;
+        background-color: #F50109;
+        border-radius: 5px;
+        border: 0px;
+        box-shadow: 0px 0px 10px #9D0005;
+        font-size: 27px;
+        font-weight: normal;
+    }
+
+    #pag-principal {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 650px;
+        background-color: rgb(12, 12, 12);
+        background-image: url('../../image/como-escolher-barbearia-800x300.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-x: -1125px;
+        background-size: cover;
+    }
+
+    #aba-endereco {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 1675px;
+        background-color: rgb(12, 12, 12);
+    }
+
+    #div-enderecos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+        /*
+        gap: 10px;
+        */
+        margin: auto;
+        width: 300px;
+        height: 1550px;
+        background-color: rgba(0, 0, 255, 0);
+    }
+
+    .unidade {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgba(137, 43, 226, 0);
+        width: 300px;
+        height: 510px;
+    }
+
+    .img-unidade {
+        width: 300px;
+        height: 240px;
+        background-color: rgba(0, 128, 0, 0);
+    }
+
+    .inf-unidades {
+        width: 300px;
+        height: 270px;
+        background-color: rgb(29, 29, 29);
+    }
+
+    .bairro {
+        font-family: 'barber';
+        color: white;
+        font-size: 50px;
+        margin: 0px;
+        background-color: rgba(137, 43, 226, 0);
+        height: 50px;
+        width: 300px;
+        margin-left: 10px;
+    }
+
+    .rua {
+        display: flex;
+        align-items: end;
+        font-family: 'barber';
+        color: white;
+        font-size: 25px;
+        margin: 0px;
+        background-color: rgba(0, 128, 0, 0);
+        height: 40px;
+        width: 300px;
+        margin-left: 10px;
+        font-weight: normal;
+    }
+
+    .dias-da-semana {
+        display: flex;
+        align-items: center;
+        font-family: 'barber';
+        color: white;
+        font-size: 20px;
+        margin: 0px;
+        background-color: rgba(0, 128, 0, 0);
+        height: 40px;
+        width: 300px;
+        margin-left: 10px;
+        font-weight: normal;
+    }
+
+    #aba-planos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 1650px;
+        background-color: rgb(12, 12, 12);
+        background-image: url('../../image/2393a-230b0e_46ea0c1020274b25aeb094ddcc1f132fmv2.webp');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: -650px;
+    }
+
+    #planos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        flex-wrap: wrap;
+        width: 300px;
+        height: 1550px;
+        background-color: rgba(137, 43, 226, 0);
+    }
+
+    .item-plano {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 25px;
+        width: 300px;
+        height: 500px;
+        background-color: rgba(20, 20, 20, 0.418);
+        border-radius: 7px;
+    }
+
+    #aba-sobre-nos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 750px;
+        background-color: rgb(12, 12, 12);
+    }
+
+    #titulo-sobre-nos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        margin: auto;
+        width: 100%;
+        height: 50px;
+        font-family: 'barber';
+        color: white;
+        border-radius: 5px;
+        font-size: 35px;
+    }
+
+    #texto-sobre-nos {
+        display: flex;
+        justify-content: center;
+        /*
+        background-color: #0031F4;
+        */
+        width: 300px;
+        height: 550px;
+        font-family: 'barber';
+        color: white;
+        font-size: 23px;
+        text-align: center;
+    }
+
+    #logo-rodape {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 35px;
+    }
+
+    #nome-barbershop-rodape {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        color: white;
+        font-size: 50px;
+        font-family: 'barber';
+    }
+}

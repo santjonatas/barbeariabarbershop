@@ -1,0 +1,150 @@
+﻿@* @{
+    ViewData["Title"] = "Home Page";
+} *@
+
+@* <div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>  *@
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barber Shop | Home</title>
+    <link rel="stylesheet" href="./css/Home.css">
+    <link rel="stylesheet" href="./css/responsivo/homeresponsivo.css">
+</head>
+<body>
+    <header id="cabecalho">
+        <nav id="itens-cabecalho">
+            <button id="sobre-nos">Sobre Nós</button>
+            <button id="assinatura">Planos</button>
+            <img id="insta" src="./image/instagram-logo.png" alt="Instagram">
+        </nav>
+    </header>
+    <main id="menu">
+        <div id="pag-principal">
+            <div id="aba-nome-barbearia">
+                <div id="nome-e-logo">
+                    <img id="logo" src="./image/acessorio-barber.png" alt="Barber Shop">
+                    <h1 id="nome-barbershop">Barber Shop</h1>
+                </div>
+                <div id="registro-e-login">
+                    <a href="../Views/Registro/Index.cshtml" id="link-botao-registro"><button id="botao-registro">Registre-se e Agende seu Horário</button></a>
+                    <a id="link-botao-login" href="./assets/login.html"><button id="botao-login">Login</button></a>
+                </div>
+            </div>
+            <div class="divisoes">
+
+            </div>
+        </div>
+        <div id="aba-endereco">
+            <h2 id="titulo-enderecos">Endereços</h2>
+            <div id="div-enderecos">
+                <div class="unidade">
+                    <img class="img-unidade" src="./image/2023-10-04.jpg" alt="">
+                    <div class="inf-unidades">
+                        <div class="local-unidade">
+                            <img class="img-local" src="./image/local-logo.png" alt="">
+                            <h3 class="txt-unidade">Unidade</h3>
+                        </div>
+                        <h3 class="bairro">República</h3>
+                        <h4 class="rua">R. Carolina do Norte, 17 - SP</h4>
+                        <img class="relogio" src="./image/relogio-logo.png" alt="">
+                        <h5 class="dias-da-semana">Seg. a Sab. - 09h às 21h</h5>
+                        <h5 class="dias-da-semana">Domingo - 10h às 20h</h5>
+                    </div>
+                </div>
+                <div class="unidade">
+                    <img class="img-unidade" src="./image/563cea3808f541f0b2f47f74ab6991-barbearia-hermanos-santa-cecil-biz-photo-6b0913eef64c445dab647b6a9a2199-booksy.jpeg" alt="">
+                    <div id="unidade-meio" class="inf-unidades">
+                        <div class="local-unidade">
+                            <img class="img-local" src="./image/local-logo.png" alt="">
+                            <h3 class="txt-unidade">Unidade</h3>
+                        </div>
+                        <h3 class="bairro">Consolação</h3>
+                        <h4 class="rua">R. Atlanta, 43 - SP</h4>
+                        <img class="relogio" src="./image/relogio-logo.png" alt="">
+                        <h5 class="dias-da-semana">Seg. a Sab. - 09h às 21h</h5>
+                        <h5 class="dias-da-semana">Domingo - 10h às 20h</h5>
+                    </div>
+                </div>
+                <div class="unidade">
+                    <img class="img-unidade" src="./image/ec082abfe6b8aa7d9c35e55c679e917e.jpg" alt="">
+                    <div class="inf-unidades">
+                        <div class="local-unidade">
+                            <img class="img-local" src="./image/local-logo.png" alt="">
+                            <h3 class="txt-unidade">Unidade</h3>
+                        </div>
+                        <h3 class="bairro">Paraíso</h3>
+                        <h4 class="rua">R. Liberdade, 14 - SP</h4>
+                        <img class="relogio" src="./image/relogio-logo.png" alt="">
+                        <h5 class="dias-da-semana">Seg. a Sab. - 09h às 21h</h5>
+                        <h5 class="dias-da-semana">Domingo - 10h às 20h</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="divisao-planos" class="divisoes">
+
+        </div>
+        <div id="aba-planos">
+            <h2 id="titulo-planos">Planos</h2>
+            <div id="planos">
+                <div class="item-plano">
+                    <h2 class="nome-plano">Plano Cut</h2>
+                    <h3 class="valor-plano">99,99</h3>
+                    <h4 class="plano-mensal">Plano Mensal</h4>
+                    <ul class="lista-beneficios">
+                        <li class="item-beneficio">Corte o cabelo quantas vezes quiser</li>
+                        <li class="item-beneficio">Acesso a todas as unidades da rede</li>
+                        <li class="item-beneficio">Descontos em produtos</li>
+                    </ul>
+                </div>
+                <div class="item-plano">
+                    <h2 class="nome-plano">Plano Black</h2>
+                    <h3 class="valor-plano">149,99</h3>
+                    <h4 class="plano-mensal">Plano Mensal</h4>
+                    <ul class="lista-beneficios">
+                        <li class="item-beneficio">Corte o cabelo quantas vezes quiser</li>
+                        <li class="item-beneficio">Faça a barba quantas vezes quiser</li>
+                        <li class="item-beneficio">Faça também as sombrancelhas</li>
+                        <li class="item-beneficio">Acesso a todas as unidades da rede</li>
+                        <li class="item-beneficio">Descontos em produtos</li>
+                    </ul>
+                </div>
+                <div class="item-plano">
+                    <h2 class="nome-plano">Plano Barb</h2>
+                    <h3 class="valor-plano">49,99</h3>
+                    <h4 class="plano-mensal">Plano Mensal</h4>
+                    <ul class="lista-beneficios">
+                        <li class="item-beneficio">Faça a barba quantas vezes quiser</li>
+                        <li class="item-beneficio">Acesso a todas as unidades da rede</li>
+                        <li class="item-beneficio">Descontos em produtos</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="divisao-sobrenos" class="divisoes">
+
+        </div>
+        <div id="aba-sobre-nos">
+            <h2 id="titulo-sobre-nos">Sobre Nós</h2>
+            <p id="texto-sobre-nos">Bem-vindo à nossa rede de barbearias, onde a tradição encontra a modernidade. Com anos de experiência no mundo da barbearia, nossa equipe dedicada combina habilidades clássicas de barbear com técnicas contemporâneas para oferecer a você uma experiência de cuidado pessoal excepcional. Estamos comprometidos em proporcionar serviços de alta qualidade, atendimento personalizado e um ambiente acolhedor para cada cliente que entra em nossas portas. Visite-nos e descubra o que nos torna a escolha preferida para cuidar da sua barba e cabelo.</p>
+        </div>
+    </main>
+    <footer id="rodape">
+        <div id="nome-e-logo-rodape">
+            <img id="logo-rodape" src="./image/acessorio-barber.png" alt="Barber Shop">
+            <h1 id="nome-barbershop-rodape">Barber Shop</h1>
+        </div>
+    </footer>
+    <script src="./js/Home.js"></script>
+</body>
+</html>
